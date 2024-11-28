@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULIR PENDAFTARAN SISWA</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h2>FORMULIR PENDAFTARAN SISWA</h2></legend>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="Nama">NAMA CALON SISWA :</label>
+            <input type="text" id="nama" name="nama" required><br><br>
+            
+            <label for="Tempat/Tanggal Lahir">TEMPAT/TANGGAL LAHIR :</label>
+            <input type="text" id="tempat_lahir" name="tempat_lahir" placeholder="TEMPAT">
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir"><br><br>
+
+            <label for="agama">AGAMA :</label>
+        <select id="agama" name="agama">
+            <option value=""></option>
+            <option value="Islam">ISLAM</option>
+            <option value="Kristen">KRISTEN</option>
+            <option value="Hindu">HINDU</option>
+            <option value="Budha">BUDHA</option>
+            <option value="Konghucu">KONGHUCU</option>
+            <option value="Lainnya">LAINNYA</option>
+        </select><br><br>
+
+            <label for="Alamat">ALAMAT :</label><br>
+            <textarea id="Alamat" name="Alamat" rows="4" cols="50"></textarea><br><br>
+           
+            <label for="no_hp">NO TELP/HP :</label>
+            <input type="text" id="no_hp" name="no_hp" value="081012121212"><br><br>
+
+            <label for="jenis kelamin">JENIS KELAMIN</label>
+            <input type="radio" id="pria" name="jenis kelamin" value="Pria">
+            <label for="pria">PRIA</label>
+            <input type="radio" id="wanita" name="jenis kelamin" value="Wanita">
+            <label for="wanita">WANITA</label><br><br>
+
+             <label>HOBI :</label><br>
+        <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+        <label for="membaca">MEMBACA</label>
+        <input type="checkbox" id="menulis" name="hobi" value="Menulis">
+        <label for="menulis">MENULIS</label>
+        <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+        <label for="olahraga">OLAHRAGA</label><br><br>
+
+        <label for="pas_foto">PAS FOTO :</label>
+        <input type="file" id="pas_foto" name="pas_foto"><br><br>
+       
+
+        <input type="submit" value="SUBMIT">
+    </fieldset>
+</body>
+</html>
